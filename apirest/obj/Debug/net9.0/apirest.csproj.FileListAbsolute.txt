@@ -40,3 +40,4 @@ C:\Users\Leviathan\Desktop\Octavo-noveno\Programación Distribuida\Consulta esti
 C:\Users\Leviathan\Desktop\Octavo-noveno\Programación Distribuida\Consulta estilos arquitectonicos\API-REST\HelloWorld\apirest\obj\Debug\net9.0\apirest.pdb
 C:\Users\Leviathan\Desktop\Octavo-noveno\Programación Distribuida\Consulta estilos arquitectonicos\API-REST\HelloWorld\apirest\obj\Debug\net9.0\apirest.genruntimeconfig.cache
 C:\Users\Leviathan\Desktop\Octavo-noveno\Programación Distribuida\Consulta estilos arquitectonicos\API-REST\HelloWorld\apirest\obj\Debug\net9.0\ref\apirest.dll
+C:\Users\Leviathan\Desktop\Octavo-noveno\Programación Distribuida\Consulta estilos arquitectonicos\API-REST\HelloWorld\apirest\obj\Debug\net9.0\apirest.sourcelink.json
