@@ -1,12 +1,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY ["apirest.csproj", "."]
+COPY apirest.csproj ./
 RUN dotnet restore "apirest.csproj"
 
 COPY . .
 RUN dotnet build "apirest.csproj" -c Release -o /app/build
-
 RUN dotnet publish "apirest.csproj" -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
@@ -14,7 +13,6 @@ WORKDIR /app
 
 COPY --from=build /app/publish .
 
-# Puerto expuesto (ajusta según tu app)
 EXPOSE 80
 EXPOSE 443
 
